@@ -1,0 +1,17 @@
+:root {
+	--c-bg: #fff;
+	--c-text: #223;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--c-bg: #223;
+		--c-text: #fff;
+	}
+}
+
+html,
+body {
+	background: var(--c-bg);
+	color: var(--c-text);
+}

@@ -1,7 +1,9 @@
-<h1>Welcome to a Personality Test</h1>
+<h1>Welcome to the <strong>-version</strong> test</h1>
 <p>
-	We'll ask you five questions to determine if you are currently <br /><strong>introverted</strong>
-	or <strong>extroverted</strong>.
+	We'll ask you five questions to see if you are currently leaning toward <br /><strong
+		>intro-version</strong
+	>
+	or <strong>extro-version</strong>.
 </p>
 <a href="/test" class="button">Take the test</a>
 
@@ -11,16 +13,5 @@
 	}
 	p {
 		margin-bottom: 1rem;
-	}
-	.button {
-		display: block;
-		width: fit-content;
-		margin: 1rem 0;
-		padding: 0.61em 1em;
-		background: orange;
-		text-decoration: none;
-		color: white;
-		border: 1px solid white;
-		border-radius: 0.5em;
 	}
 </style>
