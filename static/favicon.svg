@@ -1,0 +1,34 @@
+<svg width="512" height="512" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		@media (prefers-color-scheme: light) {
+			.bg {
+				fill: hsla(294 9% 13%/100%)
+			}
+
+			.smile {
+				mix-blend-mode: screen;
+			}
+		}
+	</style>
+	<rect class="bg" width="512" height="512" rx="72" fill="#fff" />
+	<g clip-path="url(#icon_frame)" class="smile" style="mix-blend-mode: multiply">
+		<path d="M-219.002-147.893l-8.079-20.031h-89.32v32c0 309.117 258.925 579.196 579.197 579.196s579.197-270.079 579.197-579.196v-32h-89.342l-8.077 20.033c-74.141 183.88-262.64 332.604-481.778 332.604-219.138 0-407.638-148.723-481.798-332.606z" stroke="#000" stroke-width="64" />
+		<path d="M-226.422-144.901l-6.059-15.023h-75.92v24c0 304.797 255.44 571.196 571.197 571.196 315.756 0 571.197-266.399 571.197-571.196v-24h-75.941l-6.059 15.025c-75.217 186.55-266.427 337.612-489.197 337.612-222.77 0-413.981-151.062-489.218-337.614z" stroke="#fff" stroke-width="48" />
+		<path d="M262.796 216.713c-233.665 0-433.01-158.079-511.476-352.637h-35.721c0 291.838 244.989 547.196 547.197 547.196 302.208 0 547.197-255.358 547.197-547.196h-35.741C695.806 58.634 496.461 216.713 262.796 216.713z" fill="url(#rainbow)" />
+	</g>
+	<defs>
+		<linearGradient id="rainbow" x1="0" y1="256" x2="512" y2="256" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FC6262" />
+			<stop offset=".149" stop-color="#FC9062" />
+			<stop offset=".328" stop-color="#FCE362" />
+			<stop offset=".453" stop-color="#B8FC62" />
+			<stop offset=".568" stop-color="#62FCE0" />
+			<stop offset=".766" stop-color="#627BFC" />
+			<stop offset=".88" stop-color="#CB62FC" />
+			<stop offset="1" stop-color="#FC62AC" />
+		</linearGradient>
+		<clipPath id="icon_frame">
+			<path fill="#fff" d="M0 0h512v512H0z" />
+		</clipPath>
+	</defs>
+</svg>

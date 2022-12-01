@@ -1,0 +1,629 @@
+// Vitest Snapshot v1
+
+exports[`Introversion Test > page mounts 1`] = `
+<body>
+  <div>
+    <h2>
+      Introversion/Extroversion Test
+    </h2>
+     
+    <form
+      method="post"
+      role="form"
+    >
+      <label
+        for="question1"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like parties?
+        </h3>
+         
+        <select
+          id="question1"
+          name="question1"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question2"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like singing with friends?
+        </h3>
+         
+        <select
+          id="question2"
+          name="question2"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question3"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like dancing in public?
+        </h3>
+         
+        <select
+          id="question3"
+          name="question3"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question4"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like talking with groups of friends?
+        </h3>
+         
+        <select
+          id="question4"
+          name="question4"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question5"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you prefer solo or multiplayer games?
+        </h3>
+         
+        <select
+          id="question5"
+          name="question5"
+        >
+          <option
+            value="0"
+          >
+            Solo
+          </option>
+          <option
+            value="1"
+          >
+            Multiplayer
+          </option>
+        </select>
+      </label>
+       
+      <div
+        class="button-case svelte-ua52vp"
+      >
+        <button
+          name="test-submit"
+          type="submit"
+        >
+          Submit Answers
+        </button>
+      </div>
+    </form>
+    
+  </div>
+</body>
+`;
+
+exports[`Personality Test > page mounts 1`] = `
+<body>
+  <div>
+    <h2>
+      Introversion/Extroversion Test
+    </h2>
+     
+    <form
+      method="post"
+      role="form"
+    >
+      <label
+        for="question1"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like parties?
+        </h3>
+         
+        <select
+          id="question1"
+          name="question1"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question2"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like singing with friends?
+        </h3>
+         
+        <select
+          id="question2"
+          name="question2"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question3"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like dancing in public?
+        </h3>
+         
+        <select
+          id="question3"
+          name="question3"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question4"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like talking with groups of friends?
+        </h3>
+         
+        <select
+          id="question4"
+          name="question4"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question5"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you prefer solo or multiplayer games?
+        </h3>
+         
+        <select
+          id="question5"
+          name="question5"
+        >
+          <option
+            value="0"
+          >
+            Solo
+          </option>
+          <option
+            value="1"
+          >
+            Multiplayer
+          </option>
+        </select>
+      </label>
+       
+      <div
+        class="button-case svelte-ua52vp"
+      >
+        <button
+          name="test-submit"
+          type="submit"
+        >
+          Submit Answers
+        </button>
+      </div>
+    </form>
+    
+  </div>
+</body>
+`;
+
+exports[`Test page > mounts 1`] = `
+<body>
+  <div>
+    <h2>
+      Introversion/Extroversion Test
+    </h2>
+     
+    <form
+      method="post"
+      role="form"
+    >
+      <label
+        for="question1"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like parties?
+        </h3>
+         
+        <select
+          id="question1"
+          name="question1"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question2"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like singing with friends?
+        </h3>
+         
+        <select
+          id="question2"
+          name="question2"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question3"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like dancing in public?
+        </h3>
+         
+        <select
+          id="question3"
+          name="question3"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question4"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like talking with groups of friends?
+        </h3>
+         
+        <select
+          id="question4"
+          name="question4"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question5"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you prefer solo or multiplayer games?
+        </h3>
+         
+        <select
+          id="question5"
+          name="question5"
+        >
+          <option
+            value="0"
+          >
+            Solo
+          </option>
+          <option
+            value="1"
+          >
+            Multiplayer
+          </option>
+        </select>
+      </label>
+       
+      <div
+        class="button-case svelte-ua52vp"
+      >
+        <button
+          name="test-submit"
+          type="submit"
+        >
+          Submit Answers
+        </button>
+      </div>
+    </form>
+    
+  </div>
+</body>
+`;
+
+exports[`Test page > page mounts 1`] = `
+<body>
+  <div>
+    <h2>
+      Introversion/Extroversion Test
+    </h2>
+     
+    <form
+      method="post"
+      role="form"
+    >
+      <label
+        for="question1"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like parties?
+        </h3>
+         
+        <select
+          id="question1"
+          name="question1"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question2"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like singing with friends?
+        </h3>
+         
+        <select
+          id="question2"
+          name="question2"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question3"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like dancing in public?
+        </h3>
+         
+        <select
+          id="question3"
+          name="question3"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question4"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you like talking with groups of friends?
+        </h3>
+         
+        <select
+          id="question4"
+          name="question4"
+        >
+          <option
+            value="0"
+          >
+            No
+          </option>
+          <option
+            value="1"
+          >
+            Yes
+          </option>
+        </select>
+      </label>
+       
+      <label
+        for="question5"
+      >
+        <h3
+          class="svelte-ua52vp"
+        >
+          Do you prefer solo or multiplayer games?
+        </h3>
+         
+        <select
+          id="question5"
+          name="question5"
+        >
+          <option
+            value="0"
+          >
+            Solo
+          </option>
+          <option
+            value="1"
+          >
+            Multiplayer
+          </option>
+        </select>
+      </label>
+       
+      <div
+        class="button-case svelte-ua52vp"
+      >
+        <button
+          name="test-submit"
+          type="submit"
+        >
+          Submit Answers
+        </button>
+      </div>
+    </form>
+    
+  </div>
+</body>
+`;
