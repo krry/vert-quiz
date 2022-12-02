@@ -20,125 +20,175 @@ exports[`version Test > page mounts 1`] = `
           <h3
             class="svelte-li19xm"
           >
-            Do you like parties?
+            I like parties.
           </h3>
            
-          <select
-            id="question0"
-            name="question0"
+          <div
+            class="row"
           >
-            <option
-              value="0"
-            >
-              No
-            </option>
-            <option
-              value="1"
-            >
-              Yes
-            </option>
-          </select>
+            <span>
+              Not at all
+            </span>
+             
+            <input
+              id="question0"
+              max="4"
+              min="0"
+              name="question0"
+              type="range"
+            />
+             
+            <span>
+              Totally
+            </span>
+          </div>
         </label>
+         
+        <input
+          name="max"
+          type="hidden"
+          value="4"
+        />
         <label
           for="question1"
         >
           <h3
             class="svelte-li19xm"
           >
-            Do you like singing with friends?
+            I like singing with friends.
           </h3>
            
-          <select
-            id="question1"
-            name="question1"
+          <div
+            class="row"
           >
-            <option
-              value="0"
-            >
-              No
-            </option>
-            <option
-              value="1"
-            >
-              Yes
-            </option>
-          </select>
+            <span>
+              Not at all
+            </span>
+             
+            <input
+              id="question1"
+              max="4"
+              min="0"
+              name="question1"
+              type="range"
+            />
+             
+            <span>
+              Totally
+            </span>
+          </div>
         </label>
+         
+        <input
+          name="max"
+          type="hidden"
+          value="4"
+        />
         <label
           for="question2"
         >
           <h3
             class="svelte-li19xm"
           >
-            Do you like dancing in public?
+            I like dancing in public.
           </h3>
            
-          <select
-            id="question2"
-            name="question2"
+          <div
+            class="row"
           >
-            <option
-              value="0"
-            >
-              No
-            </option>
-            <option
-              value="1"
-            >
-              Yes
-            </option>
-          </select>
+            <span>
+              Not at all
+            </span>
+             
+            <input
+              id="question2"
+              max="4"
+              min="0"
+              name="question2"
+              type="range"
+            />
+             
+            <span>
+              Totally
+            </span>
+          </div>
         </label>
+         
+        <input
+          name="max"
+          type="hidden"
+          value="4"
+        />
         <label
           for="question3"
         >
           <h3
             class="svelte-li19xm"
           >
-            Do you like talking with groups of friends?
+            I like talking with groups of friends.
           </h3>
            
-          <select
-            id="question3"
-            name="question3"
+          <div
+            class="row"
           >
-            <option
-              value="0"
-            >
-              No
-            </option>
-            <option
-              value="1"
-            >
-              Yes
-            </option>
-          </select>
+            <span>
+              Not at all
+            </span>
+             
+            <input
+              id="question3"
+              max="4"
+              min="0"
+              name="question3"
+              type="range"
+            />
+             
+            <span>
+              Totally
+            </span>
+          </div>
         </label>
+         
+        <input
+          name="max"
+          type="hidden"
+          value="4"
+        />
         <label
           for="question4"
         >
           <h3
             class="svelte-li19xm"
           >
-            Do you prefer multiplayer games?
+            I prefer multiplayer games.
           </h3>
            
-          <select
-            id="question4"
-            name="question4"
+          <div
+            class="row"
           >
-            <option
-              value="0"
-            >
-              No
-            </option>
-            <option
-              value="1"
-            >
-              Yes
-            </option>
-          </select>
+            <span>
+              Not at all
+            </span>
+             
+            <input
+              id="question4"
+              max="4"
+              min="0"
+              name="question4"
+              type="range"
+            />
+             
+            <span>
+              Totally
+            </span>
+          </div>
         </label>
+         
+        <input
+          name="max"
+          type="hidden"
+          value="4"
+        />
          
         <div
           class="button-case svelte-li19xm"

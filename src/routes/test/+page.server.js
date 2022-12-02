@@ -1,13 +1,14 @@
+import { json } from '@sveltejs/kit';
+
 /** @type {import('./$types').Actions} */
 export const actions = {
 	default: async ({ request }) => {
 		const data = await request.formData();
-		const score =
-			+data.get('question1') +
-			+data.get('question2') +
-			+data.get('question3') +
-			+data.get('question4') +
-			+data.get('question5');
-		return { score: score, taken: true };
+		const keys = [...data.keys()].filter((k) => k.includes('question'));
+		const questionCount = keys.length;
+		const answers = keys.map((k) => +data.get(k) / data.get('max'));
+		const score = answers.reduce((prev, curr) => +prev + +curr) / questionCount;
+
+		return { score, total: answers.length, taken: true, count: questionCount, keys };
 	}
 };
